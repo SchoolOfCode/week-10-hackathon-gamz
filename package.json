@@ -1,0 +1,39 @@
+{
+  "name": "week-10-hackathon-gamz",
+  "version": "1.0.0",
+  "description": "Feel free to delete this and start from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "json-server --watch db.json --port 3001",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/week-10-hackathon-gamz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/week-10-hackathon-gamz/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/week-10-hackathon-gamz#readme",
+  "dependencies": {
+    "@types/node": "^22.13.2",
+    "@types/react": "^19.0.8",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "eslint": "^9.20.1",
+    "eslint-config-next": "^15.1.7",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
